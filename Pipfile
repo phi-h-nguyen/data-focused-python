@@ -5,9 +5,9 @@ name = "pypi"
 
 [packages]
 bs4 = "*"
-requests = "*"
-selenium = "*"
 requests-html = "*"
+airportsdata = "*"
+requests = "*"
 
 [dev-packages]
 

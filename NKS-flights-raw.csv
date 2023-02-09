@@ -1,0 +1,90 @@
+Flight Number,Type,Origin,Destination,Departure Time,Estimated Arrival Time
+NKS1,A321,Fort Lauderdale Intl (KFLL),Chicago O'Hare Intl (KORD),Wed 09:26PM EST,Wed 11:10PM CST
+NKS1015,A321,Orlando Intl (KMCO),Dallas-Fort Worth Intl (KDFW),Wed 10:55PM EST,Thu 12:35AM CST
+NKS1023,A320,Los Angeles Intl (KLAX),Chicago O'Hare Intl (KORD),Wed 05:16PM PST,Wed 10:49PM CST
+NKS1035,A320,Newark Liberty Intl (KEWR),Luis Munoz Marin Intl (SJU / TJSJ),Wed 10:41PM EST,Thu 02:57AM AST
+NKS1042,A321,Luis Munoz Marin Intl (SJU / TJSJ),Orlando Intl (KMCO),Wed 11:42PM AST,Thu 01:19AM EST
+NKS1085,A20N,Hartsfield-Jackson Intl (KATL),Cleveland-Hopkins Intl (KCLE),Wed 11:03PM EST,Thu 12:09AM EST
+NKS1109,A320,Orlando Intl (KMCO),Indianapolis Intl (KIND),Wed 11:01PM EST,Thu 12:58AM EST
+NKS1141,A20N,Fort Lauderdale Intl (KFLL),Jose Joaquin de Olmedo Int'l (GYE / SEGU),Wed 07:49PM EST,Wed 11:40PM -05
+NKS1153,A20N,Southwest Florida Intl (KRSW),Cleveland-Hopkins Intl (KCLE),Wed 09:35PM EST,Wed 11:45PM EST
+NKS1188,A321,Harry Reid Intl (KLAS),Detroit Metro Wayne Co (KDTW),Wed 06:45PM PST,Thu 01:07AM EST
+NKS1198,A319,Orlando Intl (KMCO),Kansas City Intl (KMCI),Wed 09:41PM EST,Wed 11:10PM CST
+NKS1212,A20N,Orlando Intl (KMCO),Philadelphia Intl (KPHL),Wed 09:53PM EST,Wed 11:53PM EST
+NKS1232,A20N,Fort Lauderdale Intl (KFLL),Hartsfield-Jackson Intl (KATL),Wed 09:56PM EST,Wed 11:34PM EST
+NKS1296,A321,Kansas City Intl (KMCI),Harry Reid Intl (KLAS),Wed 10:09PM CST,Wed 10:49PM PST
+NKS1301,A20N,Hartsfield-Jackson Intl (KATL),Los Angeles Intl (KLAX),Wed 08:37PM EST,Wed 09:53PM PST
+NKS1314,A20N,Fort Lauderdale Intl (KFLL),Denver Intl (KDEN),Wed 08:58PM EST,Wed 10:37PM MST
+NKS1362,A319,Harry Reid Intl (KLAS),Hartsfield-Jackson Intl (KATL),Wed 05:35PM PST,Thu 12:08AM EST
+NKS1436,A319,Baltimore/Washington Intl (KBWI),Hartsfield-Jackson Intl (KATL),Wed 10:21PM EST,Wed 11:50PM EST
+NKS1442,A20N,New Orleans Intl (KMSY),Miami Intl (KMIA),Wed 08:49PM CST,Wed 11:12PM EST
+NKS1443,A20N,Miami Intl (KMIA),New Orleans Intl (KMSY),Wed 10:20PM EST,Wed 10:56PM CST
+NKS1505,A20N,Fort Lauderdale Intl (KFLL),Pittsburgh Intl (KPIT),Wed 09:00PM EST,Wed 11:13PM EST
+NKS153,A321,Fort Lauderdale Intl (KFLL),El Salvador Int'l (SAL / MSLP),Wed 11:04PM EST,Thu 12:39AM CST
+NKS1561,A20N,Detroit Metro Wayne Co (KDTW),Hartsfield-Jackson Intl (KATL),Wed 09:53PM EST,Wed 11:18PM EST
+NKS1567,A319,Orlando Intl (KMCO),Las Americas (SDQ / MDSD),Wed 09:55PM EST,Thu 01:05AM AST
+NKS1588,A20N,Harry Reid Intl (KLAS),Portland Intl (KPDX),Wed 07:41PM PST,Wed 09:44PM PST
+NKS1653,A20N,Bob Hope (KBUR),Harry Reid Intl (KLAS),Wed 07:39PM PST,Wed 08:17PM PST
+NKS1679,A320,Harry Reid Intl (KLAS),Houston Bush Int'ctl (KIAH),Wed 06:42PM PST,Wed 11:05PM CST
+NKS169,A20N,Minneapolis/St Paul Intl (KMSP),Harry Reid Intl (KLAS),Wed 09:59PM CST,Wed 10:57PM PST
+NKS1717,A320,Orlando Intl (KMCO),San Antonio Intl (KSAT),Wed 10:47PM EST,Thu 12:10AM CST
+NKS1777,A320,Fort Lauderdale Intl (KFLL),Newark Liberty Intl (KEWR),Wed 08:52PM EST,Wed 11:15PM EST
+NKS1786,A319,Chicago O'Hare Intl (KORD),Los Angeles Intl (KLAX),Wed 08:43PM CST,Wed 10:35PM PST
+NKS182,A20N,Harry Reid Intl (KLAS),Chicago O'Hare Intl (KORD),Wed 06:38PM PST,Wed 11:40PM CST
+NKS1846,A319,Denver Intl (KDEN),Houston Bush Int'ctl (KIAH),Wed 07:15PM MST,Wed 10:10PM CST
+NKS1884,A20N,Detroit Metro Wayne Co (KDTW),New Orleans Intl (KMSY),Wed 11:08PM EST,Thu 12:31AM CST
+NKS1900,A320,Rafael Hernandez (BQN / TJBQ),Orlando Intl (KMCO),Wed 10:07PM AST,Wed 11:30PM EST
+NKS1967,A321,Dallas-Fort Worth Intl (KDFW),Fort Lauderdale Intl (KFLL),Wed 08:16PM CST,Wed 11:33PM EST
+NKS199,A319,Orlando Intl (KMCO),Houston Bush Int'ctl (KIAH),Wed 09:35PM EST,Wed 10:59PM CST
+NKS2078,A320,Orlando Intl (KMCO),Baltimore/Washington Intl (KBWI),Wed 10:45PM EST,Thu 12:33AM EST
+NKS2158,A320,Orlando Intl (KMCO),Atlantic City Intl (KACY),Wed 10:07PM EST,Thu 12:01AM EST
+NKS218,A20N,Orlando Intl (KMCO),Austin-Bergstrom Intl (KAUS),Wed 10:05PM EST,Wed 11:37PM CST
+NKS218,A20N,Orlando Intl (KMCO),Austin-Bergstrom Intl (KAUS),Wed 10:05PM EST,Wed 11:37PM CST
+NKS2235,A320,Harry Reid Intl (KLAS),San Diego Intl (KSAN),Wed 07:49PM PST,Wed 08:39PM PST
+NKS231,A20N,Fort Lauderdale Intl (KFLL),Phoenix Sky Harbor Intl (KPHX),Wed 08:01PM EST,Wed 10:32PM MST
+NKS262,A20N,Philadelphia Intl (KPHL),Dallas-Fort Worth Intl (KDFW),Wed 08:43PM EST,Wed 10:59PM CST
+NKS290,A321,Dallas-Fort Worth Intl (KDFW),Harry Reid Intl (KLAS),Wed 09:15PM CST,Wed 09:39PM PST
+NKS2911,A320,Philadelphia Intl (KPHL),Luis Munoz Marin Intl (SJU / TJSJ),Wed 09:14PM EST,Thu 01:15AM AST
+NKS2913,A20N,Boston Logan Intl (KBOS),Luis Munoz Marin Intl (SJU / TJSJ),Wed 08:44PM EST,Thu 01:06AM AST
+NKS2955,A321,Fort Lauderdale Intl (KFLL),Dallas-Fort Worth Intl (KDFW),Wed 08:40PM EST,Wed 10:36PM CST
+NKS297,A20N,Fort Lauderdale Intl (KFLL),Boston Logan Intl (KBOS),Wed 09:42PM EST,Thu 12:16AM EST
+NKS3054,A319,Detroit Metro Wayne Co (KDTW),Miami Intl (KMIA),Wed 09:07PM EST,Wed 11:42PM EST
+NKS310,A20N,Los Angeles Intl (KLAX),Fort Lauderdale Intl (KFLL),Wed 04:21PM PST,Wed 11:49PM EST
+NKS3119,A320,Miami Intl (KMIA),Newark Liberty Intl (KEWR),Wed 09:56PM EST,Thu 12:15AM EST
+NKS312,A319,Dallas-Fort Worth Intl (KDFW),Orlando Intl (KMCO),Wed 08:34PM CST,Wed 11:50PM EST
+NKS3144,A20N,Miami Intl (KMIA),Houston Bush Int'ctl (KIAH),Wed 10:08PM EST,Wed 11:29PM CST
+NKS3165,A321,Chicago O'Hare Intl (KORD),Miami Intl (KMIA),Wed 09:13PM CST,Thu 12:55AM EST
+NKS352,A320,Fort Lauderdale Intl (KFLL),Houston Bush Int'ctl (KIAH),Wed 09:53PM EST,Wed 11:04PM CST
+NKS362,A320,Houston Bush Int'ctl (KIAH),Hartsfield-Jackson Intl (KATL),Wed 09:54PM CST,Thu 12:54AM EST
+NKS371,A20N,Fort Lauderdale Intl (KFLL),Rafael Hernandez (BQN / TJBQ),Wed 10:53PM EST,Thu 01:54AM AST
+NKS3801,A319,Orlando Intl (KMCO),Charlotte/Douglas Intl (KCLT),Wed 10:31PM EST,Wed 11:50PM EST
+NKS3907,A320,Austin-Bergstrom Intl (KAUS),Detroit Metro Wayne Co (KDTW),Wed 08:16PM CST,Wed 11:25PM EST
+NKS3912,A20N,Harry Reid Intl (KLAS),Los Angeles Intl (KLAX),Wed 07:32PM PST,Wed 08:18PM PST
+NKS395,A20N,Philadelphia Intl (KPHL),Harry Reid Intl (KLAS),Wed 09:19PM EST,Wed 10:36PM PST
+NKS423,A20N,Harry Reid Intl (KLAS),Salt Lake City Intl (KSLC),Wed 07:40PM PST,Wed 09:39PM MST
+NKS430,A320,Seattle-Tacoma Intl (KSEA),Harry Reid Intl (KLAS),Wed 07:14PM PST,Wed 09:01PM PST
+NKS432,A20N,Orlando Intl (KMCO),Boston Logan Intl (KBOS),Wed 08:56PM EST,Wed 11:23PM EST
+NKS433,A320,Boston Logan Intl (KBOS),Orlando Intl (KMCO),Wed 09:41PM EST,Thu 12:13AM EST
+NKS462,A320,Tampa Intl (KTPA),Pittsburgh Intl (KPIT),Wed 10:55PM EST,Thu 12:50AM EST
+NKS463,A320,Pittsburgh Intl (KPIT),Tampa Intl (KTPA),Wed 09:29PM EST,Wed 11:24PM EST
+NKS471,A320,Los Angeles Intl (KLAX),Dallas-Fort Worth Intl (KDFW),Wed 07:47PM PST,Thu 12:39AM CST
+NKS476,A320,New Orleans Intl (KMSY),Harry Reid Intl (KLAS),Wed 09:54PM CST,Wed 11:18PM PST
+NKS509,A20N,Harry Reid Intl (KLAS),Milwaukee Mitchell Intl Airport (KMKE),Wed 06:47PM PST,Wed 11:40PM CST
+NKS531,A321,Cleveland-Hopkins Intl (KCLE),Orlando Intl (KMCO),Wed 09:23PM EST,Wed 11:20PM EST
+NKS533,A320,Indianapolis Intl (KIND),Harry Reid Intl (KLAS),Wed 08:31PM EST,Wed 09:04PM PST
+NKS539,A320,Luis Munoz Marin Intl (SJU / TJSJ),Tampa Intl (KTPA),Wed 11:36PM AST,Thu 01:17AM EST
+NKS611,A20N,Boston Logan Intl (KBOS),Fort Lauderdale Intl (KFLL),Wed 08:33PM EST,Wed 11:17PM EST
+NKS616,A320,Fort Lauderdale Intl (KFLL),Boston Logan Intl (KBOS),Wed 08:33PM EST,Wed 11:11PM EST
+NKS648,A20N,Los Angeles Intl (KLAX),Harry Reid Intl (KLAS),Wed 07:50PM PST,Wed 08:42PM PST
+NKS653,A20N,Pittsburgh Intl (KPIT),Los Angeles Intl (KLAX),Wed 07:03PM EST,Wed 08:47PM PST
+NKS692,A320,Harry Reid Intl (KLAS),Metro Oakland Intl (KOAK),Wed 08:06PM PST,Wed 09:22PM PST
+NKS698,A20N,Newark Liberty Intl (KEWR),Harry Reid Intl (KLAS),Wed 09:23PM EST,Wed 11:26PM PST
+NKS703,A320,Newark Liberty Intl (KEWR),Houston Bush Int'ctl (KIAH),Wed 09:07PM EST,Wed 11:26PM CST
+NKS75,A20N,Newark Liberty Intl (KEWR),Los Angeles Intl (KLAX),Wed 05:53PM EST,Wed 08:27PM PST
+NKS777,A20N,Fort Lauderdale Intl (KFLL),Harry Reid Intl (KLAS),Wed 09:13PM EST,Wed 11:14PM PST
+NKS805,A321,Hartsfield-Jackson Intl (KATL),Harry Reid Intl (KLAS),Wed 10:39PM EST,Wed 11:43PM PST
+NKS821,A319,Houston Bush Int'ctl (KIAH),Chicago O'Hare Intl (KORD),Wed 09:17PM CST,Wed 11:17PM CST
+NKS893,A320,Luis Munoz Marin Intl (SJU / TJSJ),Orlando Intl (KMCO),Wed 11:59PM AST,Thu 01:39AM EST
+NKS913,A320,Kansas City Intl (KMCI),Los Angeles Intl (KLAX),Wed 08:33PM CST,Wed 09:33PM PST
+NKS930,A320,Orlando Intl (KMCO),Richmond Intl (KRIC),Wed 11:09PM EST,Thu 12:41AM EST
+NKS953,A20N,Los Angeles Intl (KLAX),Detroit Metro Wayne Co (KDTW),Wed 04:43PM PST,Wed 11:29PM EST

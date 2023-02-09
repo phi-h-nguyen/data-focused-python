@@ -5,6 +5,9 @@
 ### `lounges.py`
 Webscrapes [www.loungebuddy.com](https://loungebuddy.com) to return a list of all lounges seperated by terminal based on given airport codes.
 
+### `flights.py`
+Webscrapes [www.flightaware.com](https://flightaware.com/live/fleet/) to create CSV files (raw and cleaned) of all live flights given an airline.
+
 ## Installation
 
 Uses [pipenv](https://pipenv.pypa.io/) to keep track of requirements and enviornment. To install, run `pip install --user pipenv`

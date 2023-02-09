@@ -1,0 +1,312 @@
+Flight Number,Type,Origin,Destination,Departure Time,Estimated Arrival Time
+DAL1,B764,John F Kennedy Intl (KJFK),London Heathrow (LHR / EGLL),Wed 08:24PM EST,Thu 07:33AM GMT
+DAL10,A333,Minneapolis/St Paul Intl (KMSP),London Heathrow (LHR / EGLL),Wed 05:27PM CST,Thu 06:20AM GMT
+DAL101,B764,Hartsfield-Jackson Intl (KATL),Ministro Pistarini Int'l (EZE / SAEZ),Wed 09:00PM EST,Thu 08:25AM -03
+DAL1011,B739,Hartsfield-Jackson Intl (KATL),Bradley Intl (KBDL),Wed 09:57PM EST,Wed 11:41PM EST
+DAL1020,B739,Charlotte/Douglas Intl (KCLT),Salt Lake City Intl (KSLC),Wed 07:05PM EST,Wed 08:52PM MST
+DAL1022,BCS1,Houston Bush Int'ctl (KIAH),Salt Lake City Intl (KSLC),Wed 08:04PM CST,Wed 09:37PM MST
+DAL104,A333,São Paulo-Guarulhos Int'l (GRU / SBGR),Hartsfield-Jackson Intl (KATL),Wed 11:10PM -03,Thu 06:19AM EST
+DAL105,A333,Hartsfield-Jackson Intl (KATL),São Paulo-Guarulhos Int'l (GRU / SBGR),Wed 06:09PM EST,Thu 04:59AM -03
+DAL106,B764,John F Kennedy Intl (KJFK),Frankfurt Int'l (FRA / EDDF),Wed 07:07PM EST,Thu 08:15AM CET
+DAL1074,B738,Seattle-Tacoma Intl (KSEA),Chicago O'Hare Intl (KORD),Wed 06:04PM PST,Wed 11:26PM CST
+DAL1092,B753,Detroit Metro Wayne Co (KDTW),Phoenix Sky Harbor Intl (KPHX),Wed 08:00PM EST,Wed 09:48PM MST
+DAL1093,BCS3,San Francisco Int'l (KSFO),Salt Lake City Intl (KSLC),Wed 07:22PM PST,Wed 09:46PM MST
+DAL1097,B712,Hartsfield-Jackson Intl (KATL),Dane Co Rgnl (KMSN),Wed 10:18PM EST,Wed 10:55PM CST
+DAL110,B764,Ministro Pistarini Int'l (EZE / SAEZ),Hartsfield-Jackson Intl (KATL),Wed 09:21PM -03,Thu 05:03AM EST
+DAL1111,A319,Los Angeles Intl (KLAX),San Antonio Intl (KSAT),Wed 06:45PM PST,Wed 11:13PM CST
+DAL1115,B739,New Orleans Intl (KMSY),Los Angeles Intl (KLAX),Wed 07:40PM CST,Wed 09:36PM PST
+DAL1116,A319,Detroit Metro Wayne Co (KDTW),Houston Bush Int'ctl (KIAH),Wed 08:28PM EST,Wed 10:23PM CST
+DAL1128,BCS1,Houston Bush Int'ctl (KIAH),LaGuardia (KLGA),Wed 07:50PM CST,Wed 11:26PM EST
+DAL1163,BCS3,Minneapolis/St Paul Intl (KMSP),John Wayne (KSNA),Wed 06:31PM CST,Wed 07:58PM PST
+DAL1165,A321,LaGuardia (KLGA),Orlando Intl (KMCO),Wed 08:31PM EST,Wed 10:38PM EST
+DAL1198,B753,Hartsfield-Jackson Intl (KATL),Orlando Intl (KMCO),Wed 10:14PM EST,Wed 11:13PM EST
+DAL1239,A321,LaGuardia (KLGA),Fort Lauderdale Intl (KFLL),Wed 08:21PM EST,Wed 10:38PM EST
+DAL1244,BCS1,LaGuardia (KLGA),Chicago O'Hare Intl (KORD),Wed 08:58PM EST,Wed 09:57PM CST
+DAL1246,A321,Minneapolis/St Paul Intl (KMSP),Boston Logan Intl (KBOS),Wed 08:18PM CST,Wed 11:22PM EST
+DAL1251,A321,Hartsfield-Jackson Intl (KATL),Tucson Intl (KTUS),Wed 07:59PM EST,Wed 09:30PM MST
+DAL1259,B739,Los Angeles Intl (KLAX),New Orleans Intl (KMSY),Wed 05:41PM PST,Wed 10:51PM CST
+DAL126,B763,John F Kennedy Intl (KJFK),Adolfo Suárez Madrid-Barajas (MAD / LEMD),Wed 07:49PM EST,Thu 08:32AM CET
+DAL1260,B753,Minneapolis/St Paul Intl (KMSP),Phoenix Sky Harbor Intl (KPHX),Wed 09:30PM CST,Wed 11:19PM MST
+DAL1266,B739,Salt Lake City Intl (KSLC),Miami Intl (KMIA),Wed 05:23PM MST,Wed 11:47PM EST
+DAL1270,BCS1,Seattle-Tacoma Intl (KSEA),Kansas City Intl (KMCI),Wed 06:26PM PST,Wed 11:16PM CST
+DAL1272,B739,Newark Liberty Intl (KEWR),Salt Lake City Intl (KSLC),Wed 07:07PM EST,Wed 09:36PM MST
+DAL1275,A320,Minneapolis/St Paul Intl (KMSP),LaGuardia (KLGA),Wed 08:09PM CST,Wed 11:06PM EST
+DAL1280,B752,Hartsfield-Jackson Intl (KATL),Minneapolis/St Paul Intl (KMSP),Wed 08:43PM EST,Wed 09:42PM CST
+DAL1281,B739,Seattle-Tacoma Intl (KSEA),Salt Lake City Intl (KSLC),Wed 07:24PM PST,Wed 09:49PM MST
+DAL1284,A321,Hartsfield-Jackson Intl (KATL),Houston Bush Int'ctl (KIAH),Wed 10:17PM EST,Wed 11:28PM CST
+DAL1294,A321,Denver Intl (KDEN),Minneapolis/St Paul Intl (KMSP),Wed 07:32PM MST,Wed 09:57PM CST
+DAL130,B763,Hartsfield-Jackson Intl (KATL),Munich Int'l (MUC / EDDM),Wed 06:05PM EST,Thu 08:41AM CET
+DAL1306,A319,Detroit Metro Wayne Co (KDTW),Dallas-Fort Worth Intl (KDFW),Wed 09:19PM EST,Wed 10:51PM CST
+DAL1310,A321,Hartsfield-Jackson Intl (KATL),Minneapolis/St Paul Intl (KMSP),Wed 10:20PM EST,Wed 11:25PM CST
+DAL1314,A321,Hartsfield-Jackson Intl (KATL),Charleston Intl/AFB (KCHS),Wed 10:15PM EST,Wed 10:55PM EST
+DAL1317,BCS3,Houston Bush Int'ctl (KIAH),Minneapolis/St Paul Intl (KMSP),Wed 08:44PM CST,Wed 10:46PM CST
+DAL132,A332,Detroit Metro Wayne Co (KDTW),Amsterdam Schiphol (AMS / EHAM),Wed 05:20PM EST,Thu 06:25AM CET
+DAL1320,BCS1,LaGuardia (KLGA),Houston Bush Int'ctl (KIAH),Wed 07:12PM EST,Wed 10:20PM CST
+DAL1324,B752,Hartsfield-Jackson Intl (KATL),Miami Intl (KMIA),Wed 10:26PM EST,Wed 11:52PM EST
+DAL1325,A321,Salt Lake City Intl (KSLC),Orlando Intl (KMCO),Wed 06:13PM MST,Thu 12:16AM EST
+DAL1331,BCS1,Minneapolis/St Paul Intl (KMSP),San Jose Int'l (KSJC),Wed 06:36PM CST,Wed 08:09PM PST
+DAL1334,B738,Los Angeles Intl (KLAX),Kansas City Intl (KMCI),Wed 05:07PM PST,Wed 09:49PM CST
+DAL134,A333,Detroit Metro Wayne Co (KDTW),Amsterdam Schiphol (AMS / EHAM),Wed 06:38PM EST,Thu 08:00AM CET
+DAL1353,B738,Salt Lake City Intl (KSLC),Washington Dulles Intl (KIAD),Wed 06:08PM MST,Wed 11:34PM EST
+DAL136,A359,Detroit Metro Wayne Co (KDTW),Amsterdam Schiphol (AMS / EHAM),Wed 08:45PM EST,Thu 09:54AM CET
+DAL1365,A320,Detroit Metro Wayne Co (KDTW),San Antonio Intl (KSAT),Wed 08:29PM EST,Wed 10:25PM CST
+DAL1376,B739,Minneapolis/St Paul Intl (KMSP),Dane Co Rgnl (KMSN),Wed 09:22PM CST,Wed 09:52PM CST
+DAL1387,BCS1,Boston Logan Intl (KBOS),Austin-Bergstrom Intl (KAUS),Wed 08:02PM EST,Wed 11:12PM CST
+DAL1390,B753,Minneapolis/St Paul Intl (KMSP),Orlando Intl (KMCO),Wed 06:57PM CST,Wed 10:43PM EST
+DAL1398,B739,Minneapolis/St Paul Intl (KMSP),Sacramento Intl (KSMF),Wed 07:28PM CST,Wed 08:44PM PST
+DAL14,A332,Hartsfield-Jackson Intl (KATL),Frankfurt Int'l (FRA / EDDF),Wed 06:57PM EST,Thu 09:23AM CET
+DAL140,B763,John F Kennedy Intl (KJFK),Brussels (BRU / EBBR),Wed 07:53PM EST,Thu 08:33AM CET
+DAL1419,A321,Detroit Metro Wayne Co (KDTW),Denver Intl (KDEN),Wed 08:32PM EST,Wed 09:07PM MST
+DAL142,A339,Seattle-Tacoma Intl (KSEA),Amsterdam Schiphol (AMS / EHAM),Wed 02:10PM PST,Thu 08:04AM CET
+DAL1420,B712,Minneapolis/St Paul Intl (KMSP),Newark Liberty Intl (KEWR),Wed 08:05PM CST,Wed 11:04PM EST
+DAL1423,B752,Hartsfield-Jackson Intl (KATL),Chicago O'Hare Intl (KORD),Wed 10:09PM EST,Wed 10:42PM CST
+DAL1429,B738,Southwest Florida Intl (KRSW),Boston Logan Intl (KBOS),Wed 08:42PM EST,Wed 11:24PM EST
+DAL1433,BCS1,LaGuardia (KLGA),Boston Logan Intl (KBOS),Wed 10:11PM EST,Wed 10:42PM EST
+DAL1447,A321,John F Kennedy Intl (KJFK),Orlando Intl (KMCO),Wed 08:37PM EST,Wed 10:46PM EST
+DAL1450,A321,Miami Intl (KMIA),John F Kennedy Intl (KJFK),Wed 08:38PM EST,Wed 10:56PM EST
+DAL146,A359,Comodoro Arturo Merino Benitez Int'l (SCL / SCEL),Hartsfield-Jackson Intl (KATL),Wed 11:35PM -03,Thu 06:20AM EST
+DAL1465,A21N,Boston Logan Intl (KBOS),Seattle-Tacoma Intl (KSEA),Wed 07:29PM EST,Wed 10:32PM PST
+DAL147,A359,Hartsfield-Jackson Intl (KATL),Comodoro Arturo Merino Benitez Int'l (SCL / SCEL),Wed 08:20PM EST,Thu 06:43AM -03
+DAL1492,B738,Chicago O'Hare Intl (KORD),Salt Lake City Intl (KSLC),Wed 07:52PM CST,Wed 09:40PM MST
+DAL1514,A320,John F Kennedy Intl (KJFK),Palm Beach Intl (KPBI),Wed 08:17PM EST,Wed 10:36PM EST
+DAL1516,A321,Minneapolis/St Paul Intl (KMSP),Dallas-Fort Worth Intl (KDFW),Wed 08:25PM CST,Wed 10:32PM CST
+DAL1523,B712,Chicago O'Hare Intl (KORD),Minneapolis/St Paul Intl (KMSP),Wed 08:49PM CST,Wed 09:45PM CST
+DAL1528,B712,Hartsfield-Jackson Intl (KATL),Tulsa Intl (KTUL),Wed 09:48PM EST,Wed 10:21PM CST
+DAL1539,A321,Minneapolis/St Paul Intl (KMSP),San Diego Intl (KSAN),Wed 06:34PM CST,Wed 07:50PM PST
+DAL154,B764,Boston Logan Intl (KBOS),Dublin Int'l (DUB / EIDW),Wed 09:55PM EST,Thu 08:24AM GMT
+DAL1542,A321,Harry Reid Intl (KLAS),Minneapolis/St Paul Intl (KMSP),Wed 06:36PM PST,Wed 11:17PM CST
+DAL1551,B739,Los Angeles Intl (KLAX),Seattle-Tacoma Intl (KSEA),Wed 07:27PM PST,Wed 09:42PM PST
+DAL1553,B738,John F Kennedy Intl (KJFK),Tampa Intl (KTPA),Wed 08:19PM EST,Wed 10:41PM EST
+DAL1557,BCS1,Minneapolis/St Paul Intl (KMSP),Houston Bush Int'ctl (KIAH),Wed 08:39PM CST,Wed 11:17PM CST
+DAL1569,B739,Seattle-Tacoma Intl (KSEA),Los Angeles Intl (KLAX),Wed 05:41PM PST,Wed 07:36PM PST
+DAL157,B763,Kotoka Int'l (ACC / DGAA),John F Kennedy Intl (KJFK),Wed 11:08PM GMT,Thu 04:50AM EST
+DAL1575,BCS3,Denver Intl (KDEN),Seattle-Tacoma Intl (KSEA),Wed 06:37PM MST,Wed 08:03PM PST
+DAL158,A359,Incheon Int'l (ICN / RKSI),Detroit Metro Wayne Co (KDTW),Thu 10:52AM KST,Thu 09:00AM EST
+DAL159,A359,Detroit Metro Wayne Co (KDTW),Incheon Int'l (ICN / RKSI),Wed 12:06PM EST,Thu 04:28PM KST
+DAL16,A332,Detroit Metro Wayne Co (KDTW),London Heathrow (LHR / EGLL),Wed 06:14PM EST,Thu 06:04AM GMT
+DAL1602,A320,Chicago O'Hare Intl (KORD),Detroit Metro Wayne Co (KDTW),Wed 09:24PM CST,Wed 11:07PM EST
+DAL1612,A320,Detroit Metro Wayne Co (KDTW),Austin-Bergstrom Intl (KAUS),Wed 07:51PM EST,Wed 09:46PM CST
+DAL162,A333,Minneapolis/St Paul Intl (KMSP),Amsterdam Schiphol (AMS / EHAM),Wed 07:42PM CST,Thu 09:55AM CET
+DAL1622,B739,Detroit Metro Wayne Co (KDTW),Boston Logan Intl (KBOS),Wed 09:34PM EST,Wed 10:49PM EST
+DAL1629,B738,John F Kennedy Intl (KJFK),Southwest Florida Intl (KRSW),Wed 08:25PM EST,Wed 11:00PM EST
+DAL1643,A320,LaGuardia (KLGA),Tampa Intl (KTPA),Wed 08:45PM EST,Wed 11:07PM EST
+DAL167,A339,Seattle-Tacoma Intl (KSEA),Tokyo Int'l (Haneda) (HND / RJTT),Wed 11:27AM PST,Thu 02:44PM JST
+DAL168,B763,John F Kennedy Intl (KJFK),Barcelona Int'l (BCN / LEBL),Wed 09:00PM EST,Thu 10:08AM CET
+DAL1687,BCS1,Ontario Intl (KONT),Seattle-Tacoma Intl (KSEA),Wed 07:10PM PST,Wed 09:25PM PST
+DAL1689,B738,Phoenix Sky Harbor Intl (KPHX),Seattle-Tacoma Intl (KSEA),Wed 08:11PM MST,Wed 09:44PM PST
+DAL1690,B739,Hartsfield-Jackson Intl (KATL),Cincinnati/Northern Kentucky International Airport (KCVG),Wed 10:12PM EST,Wed 11:11PM EST
+DAL1695,A321,Miami Intl (KMIA),LaGuardia (KLGA),Wed 08:30PM EST,Wed 10:52PM EST
+DAL171,A359,Minneapolis/St Paul Intl (KMSP),Incheon Int'l (ICN / RKSI),Wed 10:31AM CST,Thu 02:59PM KST
+DAL172,A333,John F Kennedy Intl (KJFK),Malpensa Int'l (MXP / LIMC),Wed 09:10PM EST,Thu 10:27AM CET
+DAL1749,A321,Minneapolis/St Paul Intl (KMSP),Southwest Florida Intl (KRSW),Wed 06:35PM CST,Wed 10:36PM EST
+DAL178,A333,Portland Intl (KPDX),Amsterdam Schiphol (AMS / EHAM),Wed 05:45PM PST,Thu 11:35AM CET
+DAL1837,B738,Los Cabos Int'l (SJD / MMSD),Seattle-Tacoma Intl (KSEA),Wed 05:31PM MST,Wed 08:37PM PST
+DAL197,A339,Seattle-Tacoma Intl (KSEA),Incheon Int'l (ICN / RKSI),Wed 11:13AM PST,Thu 03:57PM KST
+DAL20,A339,Seattle-Tacoma Intl (KSEA),London Heathrow (LHR / EGLL),Wed 07:12PM PST,Thu 11:51AM GMT
+DAL2001,B712,Detroit Metro Wayne Co (KDTW),Newark Liberty Intl (KEWR),Wed 10:30PM EST,Wed 11:27PM EST
+DAL2029,B739,John F Kennedy Intl (KJFK),Boston Logan Intl (KBOS),Wed 10:29PM EST,Wed 11:02PM EST
+DAL2036,B739,Los Angeles Intl (KLAX),Harry Reid Intl (KLAS),Wed 07:31PM PST,Wed 08:12PM PST
+DAL2051,A320,Hartsfield-Jackson Intl (KATL),William P Hobby (KHOU),Wed 09:00PM EST,Wed 10:00PM CST
+DAL2064,A320,Hartsfield-Jackson Intl (KATL),Rhode Island T. F. Green International Airport (KPVD),Wed 08:56PM EST,Wed 10:44PM EST
+DAL2074,B739,Minneapolis/St Paul Intl (KMSP),Indianapolis Intl (KIND),Wed 08:33PM CST,Wed 10:43PM EST
+DAL2094,BCS1,New Orleans Intl (KMSY),John F Kennedy Intl (KJFK),Wed 08:16PM CST,Wed 11:35PM EST
+DAL2099,A321,Detroit Metro Wayne Co (KDTW),Rhode Island T. F. Green International Airport (KPVD),Wed 09:26PM EST,Wed 10:39PM EST
+DAL2120,B739,Hartsfield-Jackson Intl (KATL),Kansas City Intl (KMCI),Wed 10:10PM EST,Wed 10:45PM CST
+DAL2132,A321,Hartsfield-Jackson Intl (KATL),Memphis Intl (KMEM),Wed 10:13PM EST,Wed 10:12PM CST
+DAL2148,B739,Minneapolis/St Paul Intl (KMSP),Raleigh-Durham Intl (KRDU),Wed 09:10PM CST,Thu 12:08AM EST
+DAL2153,A321,Minneapolis/St Paul Intl (KMSP),Gerald R Ford Intl (KGRR),Wed 09:17PM CST,Wed 11:14PM EST
+DAL216,B763,John F Kennedy Intl (KJFK),Blaise Diagne (DSS / GOBD),Wed 08:19PM EST,Thu 07:53AM GMT
+DAL2176,A319,Salt Lake City Intl (KSLC),Jackson Hole (KJAC),Wed 08:35PM MST,Wed 09:08PM MST
+DAL220,A339,Salt Lake City Intl (KSLC),Charles de Gaulle/Roissy (CDG / LFPG),Wed 02:16PM MST,Thu 07:11AM CET
+DAL2209,BCS1,Boston Logan Intl (KBOS),Cincinnati/Northern Kentucky International Airport (KCVG),Wed 08:34PM EST,Wed 10:44PM EST
+DAL2211,BCS1,LaGuardia (KLGA),Syracuse Hancock Intl (KSYR),Wed 10:14PM EST,Wed 10:52PM EST
+DAL2213,B712,Hartsfield-Jackson Intl (KATL),Blue Grass (KLEX),Wed 10:04PM EST,Wed 10:50PM EST
+DAL2222,B739,Hartsfield-Jackson Intl (KATL),Pensacola Intl (KPNS),Wed 10:12PM EST,Wed 09:57PM CST
+DAL2240,B712,Detroit Metro Wayne Co (KDTW),Richmond Intl (KRIC),Wed 09:37PM EST,Wed 10:40PM EST
+DAL226,B764,São Paulo-Guarulhos Int'l (GRU / SBGR),John F Kennedy Intl (KJFK),Wed 09:37PM -03,Thu 05:05AM EST
+DAL227,B764,John F Kennedy Intl (KJFK),São Paulo-Guarulhos Int'l (GRU / SBGR),Wed 09:58PM EST,Thu 09:02AM -03
+DAL2275,B712,Hartsfield-Jackson Intl (KATL),Asheville Rgnl (KAVL),Wed 10:19PM EST,Wed 10:50PM EST
+DAL2280,A320,Minneapolis/St Paul Intl (KMSP),Reagan National (KDCA),Wed 08:34PM CST,Wed 11:29PM EST
+DAL2290,B738,Fort Lauderdale Intl (KFLL),Boston Logan Intl (KBOS),Wed 08:43PM EST,Wed 11:18PM EST
+DAL2293,A321,Detroit Metro Wayne Co (KDTW),LaGuardia (KLGA),Wed 09:57PM EST,Wed 11:03PM EST
+DAL230,B763,Raleigh-Durham Intl (KRDU),Charles de Gaulle/Roissy (CDG / LFPG),Wed 07:58PM EST,Thu 09:21AM CET
+DAL2306,B712,Hartsfield-Jackson Intl (KATL),Des Moines Intl (KDSM),Wed 10:17PM EST,Wed 10:59PM CST
+DAL2307,B738,Hartsfield-Jackson Intl (KATL),Piedmont Triad Intl (KGSO),Wed 09:56PM EST,Wed 10:39PM EST
+DAL232,A339,Minneapolis/St Paul Intl (KMSP),Charles de Gaulle/Roissy (CDG / LFPG),Wed 07:14PM CST,Thu 09:30AM CET
+DAL2321,B739,Hartsfield-Jackson Intl (KATL),El Paso Intl (KELP),Wed 08:05PM EST,Wed 09:03PM MST
+DAL2323,B739,Minneapolis/St Paul Intl (KMSP),Portland Intl (KPDX),Wed 06:25PM CST,Wed 07:37PM PST
+DAL2338,B752,Hartsfield-Jackson Intl (KATL),Norfolk Intl (KORF),Wed 10:34PM EST,Wed 11:40PM EST
+DAL235,A339,Ben Gurion Int'l (TLV / LLBG),John F Kennedy Intl (KJFK),Thu 12:20AM IST,Thu 05:16AM EST
+DAL2352,B712,Detroit Metro Wayne Co (KDTW),Charlotte/Douglas Intl (KCLT),Wed 09:43PM EST,Wed 10:59PM EST
+DAL2372,BCS1,San Jose Int'l (KSJC),Salt Lake City Intl (KSLC),Wed 07:10PM PST,Wed 09:39PM MST
+DAL2377,A319,Hartsfield-Jackson Intl (KATL),Chicago Midway Intl (KMDW),Wed 09:54PM EST,Wed 10:14PM CST
+DAL238,A359,Hartsfield-Jackson Intl (KATL),OR Tambo Int'l (JNB / FAOR),Wed 06:15PM EST,Thu 04:02PM SAST
+DAL2388,B739,Harry Reid Intl (KLAS),Seattle-Tacoma Intl (KSEA),Wed 06:52PM PST,Wed 09:00PM PST
+DAL239,A359,Cape Town Int'l (CPT / FACT),Hartsfield-Jackson Intl (KATL),Thu 12:08AM SAST,Thu 08:11AM EST
+DAL2402,B712,Detroit Metro Wayne Co (KDTW),Philadelphia Intl (KPHL),Wed 10:05PM EST,Wed 11:13PM EST
+DAL2419,B738,Seattle-Tacoma Intl (KSEA),Ontario Intl (KONT),Wed 07:32PM PST,Wed 09:25PM PST
+DAL2423,B712,Hartsfield-Jackson Intl (KATL),Will Rogers World (KOKC),Wed 09:50PM EST,Wed 10:34PM CST
+DAL2428,B738,San Diego Intl (KSAN),Seattle-Tacoma Intl (KSEA),Wed 07:33PM PST,Wed 10:04PM PST
+DAL2459,A319,Portland Intl (KPDX),Los Angeles Intl (KLAX),Wed 07:33PM PST,Wed 09:23PM PST
+DAL2466,BCS1,Boston Logan Intl (KBOS),Frederick Douglass/Greater Rochester Intl (KROC),Wed 10:28PM EST,Wed 11:31PM EST
+DAL2474,B739,Hartsfield-Jackson Intl (KATL),St Louis Lambert Intl (KSTL),Wed 10:26PM EST,Wed 10:42PM CST
+DAL2475,A319,LaGuardia (KLGA),Southwest Florida Intl (KRSW),Wed 08:16PM EST,Wed 10:52PM EST
+DAL2488,A320,LaGuardia (KLGA),Hartsfield-Jackson Intl (KATL),Wed 09:39PM EST,Wed 11:31PM EST
+DAL2495,A321,John F Kennedy Intl (KJFK),Miami Intl (KMIA),Wed 08:56PM EST,Wed 11:17PM EST
+DAL2537,BCS1,Boston Logan Intl (KBOS),Raleigh-Durham Intl (KRDU),Wed 09:29PM EST,Wed 10:57PM EST
+DAL2539,A321,Hartsfield-Jackson Intl (KATL),San Antonio Intl (KSAT),Wed 10:16PM EST,Wed 11:34PM CST
+DAL2540,A319,Hartsfield-Jackson Intl (KATL),Joe Foss Fld (KFSD),Wed 10:11PM EST,Wed 11:14PM CST
+DAL258,A333,Boston Logan Intl (KBOS),Amsterdam Schiphol (AMS / EHAM),Wed 07:19PM EST,Thu 07:34AM CET
+DAL2580,A319,Detroit Metro Wayne Co (KDTW),Reagan National (KDCA),Wed 09:56PM EST,Wed 10:57PM EST
+DAL2603,B739,Hartsfield-Jackson Intl (KATL),Pittsburgh Intl (KPIT),Wed 10:28PM EST,Wed 11:42PM EST
+DAL2608,B739,Minneapolis/St Paul Intl (KMSP),Tampa Intl (KTPA),Wed 08:09PM CST,Thu 12:03AM EST
+DAL262,A339,John F Kennedy Intl (KJFK),Charles de Gaulle/Roissy (CDG / LFPG),Wed 08:06PM EST,Thu 08:29AM CET
+DAL2626,B738,Hartsfield-Jackson Intl (KATL),The Eastern Iowa (KCID),Wed 09:05PM EST,Wed 09:38PM CST
+DAL2640,A320,Hartsfield-Jackson Intl (KATL),Toronto Pearson Int'l (CYYZ),Wed 09:49PM EST,Wed 11:24PM EST
+DAL2642,B739,Hartsfield-Jackson Intl (KATL),Philadelphia Intl (KPHL),Wed 10:10PM EST,Wed 11:39PM EST
+DAL2655,B738,Hartsfield-Jackson Intl (KATL),Nashville Intl (KBNA),Wed 10:00PM EST,Wed 09:37PM CST
+DAL2666,BCS3,San Diego Intl (KSAN),Salt Lake City Intl (KSLC),Wed 07:21PM PST,Wed 10:06PM MST
+DAL2686,B739,Minneapolis/St Paul Intl (KMSP),Baltimore/Washington Intl (KBWI),Wed 08:23PM CST,Wed 11:17PM EST
+DAL269,A333,Hartsfield-Jackson Intl (KATL),São Paulo-Guarulhos Int'l (GRU / SBGR),Wed 09:47PM EST,Thu 08:41AM -03
+DAL2715,A321,Detroit Metro Wayne Co (KDTW),Baltimore/Washington Intl (KBWI),Wed 10:33PM EST,Wed 11:29PM EST
+DAL2717,A320,Detroit Metro Wayne Co (KDTW),Buffalo Niagara Intl (KBUF),Wed 10:07PM EST,Wed 10:44PM EST
+DAL272,B763,John F Kennedy Intl (KJFK),General Humberto Delgado Airport (LIS / LPPT),Wed 09:37PM EST,Thu 09:00AM WET
+DAL2741,B739,Hartsfield-Jackson Intl (KATL),Greenville/Spartanburg Intl (KGSP),Wed 10:29PM EST,Wed 10:56PM EST
+DAL2749,B739,Hartsfield-Jackson Intl (KATL),Birmingham-Shuttlesworth Intl (KBHM),Wed 10:29PM EST,Wed 09:57PM CST
+DAL2771,B712,Hartsfield-Jackson Intl (KATL),James M Cox Dayton Intl (KDAY),Wed 10:01PM EST,Wed 11:02PM EST
+DAL2819,B712,Hartsfield-Jackson Intl (KATL),Charlotte/Douglas Intl (KCLT),Wed 10:24PM EST,Wed 10:59PM EST
+DAL2839,A319,Detroit Metro Wayne Co (KDTW),Raleigh-Durham Intl (KRDU),Wed 09:30PM EST,Wed 10:39PM EST
+DAL2845,A319,Minneapolis/St Paul Intl (KMSP),Bradley Intl (KBDL),Wed 08:06PM CST,Wed 11:03PM EST
+DAL2860,B752,Hartsfield-Jackson Intl (KATL),Savannah/Hilton Head Intl (KSAV),Wed 10:34PM EST,Wed 11:07PM EST
+DAL2861,B739,Hartsfield-Jackson Intl (KATL),John Glenn Columbus Intl Airport (KCMH),Wed 10:30PM EST,Wed 11:37PM EST
+DAL2865,A321,Hartsfield-Jackson Intl (KATL),Gerald R Ford Intl (KGRR),Wed 09:56PM EST,Wed 11:19PM EST
+DAL2877,B739,Minneapolis/St Paul Intl (KMSP),Philadelphia Intl (KPHL),Wed 08:44PM CST,Wed 11:41PM EST
+DAL2915,A321,Minneapolis/St Paul Intl (KMSP),Bozeman Yellowstone Intl (KBZN),Wed 09:34PM CST,Wed 10:34PM MST
+DAL2929,A319,Spokane Intl (KGEG),Salt Lake City Intl (KSLC),Wed 07:34PM PST,Wed 09:47PM MST
+DAL2932,B753,Minneapolis/St Paul Intl (KMSP),Hartsfield-Jackson Intl (KATL),Wed 08:14PM CST,Wed 11:25PM EST
+DAL2940,A321,Hartsfield-Jackson Intl (KATL),Detroit Metro Wayne Co (KDTW),Wed 10:14PM EST,Wed 11:37PM EST
+DAL2943,B739,Portland Intl (KPDX),Salt Lake City Intl (KSLC),Wed 07:32PM PST,Wed 09:52PM MST
+DAL2947,A321,Phoenix Sky Harbor Intl (KPHX),Minneapolis/St Paul Intl (KMSP),Wed 07:51PM MST,Wed 11:25PM CST
+DAL295,A359,Hartsfield-Jackson Intl (KATL),Tokyo Int'l (Haneda) (HND / RJTT),Wed 10:16AM EST,Thu 01:57PM JST
+DAL2958,B712,Hartsfield-Jackson Intl (KATL),Eppley Airfield (KOMA),Wed 10:23PM EST,Wed 11:14PM CST
+DAL2965,BCS3,Sacramento Intl (KSMF),Seattle-Tacoma Intl (KSEA),Wed 06:26PM PST,Wed 07:57PM PST
+DAL2970,A321,Hartsfield-Jackson Intl (KATL),Milwaukee Mitchell Intl Airport (KMKE),Wed 10:25PM EST,Wed 10:54PM CST
+DAL2976,A319,Denver Intl (KDEN),Los Angeles Intl (KLAX),Wed 07:45PM MST,Wed 08:39PM PST
+DAL2978,A320,Minneapolis/St Paul Intl (KMSP),Calgary Int'l (CYYC),Wed 08:20PM CST,Wed 09:41PM MST
+DAL2989,A321,Detroit Metro Wayne Co (KDTW),Bradley Intl (KBDL),Wed 10:16PM EST,Wed 11:24PM EST
+DAL3,B764,John F Kennedy Intl (KJFK),London Heathrow (LHR / EGLL),Wed 10:19PM EST,Thu 09:47AM GMT
+DAL30,B764,Hartsfield-Jackson Intl (KATL),London Heathrow (LHR / EGLL),Wed 06:23PM EST,Thu 06:55AM GMT
+DAL300,B763,Salt Lake City Intl (KSLC),Kahului (OGG / PHOG),Wed 03:45PM MST,Wed 06:46PM HST
+DAL305,B764,Daniel K Inouye Intl (PHNL),John F Kennedy Intl (KJFK),Wed 05:04PM HST,Thu 07:26AM EST
+DAL309,BCS3,Washington Dulles Intl (KIAD),Seattle-Tacoma Intl (KSEA),Wed 05:37PM EST,Wed 07:52PM PST
+DAL311,B763,Los Angeles Intl (KLAX),Ellison Onizuka Kona Intl At Keahole (KOA / PHKO),Wed 05:50PM PST,Wed 08:50PM HST
+DAL32,B764,Hartsfield-Jackson Intl (KATL),London Heathrow (LHR / EGLL),Wed 10:17PM EST,Thu 10:47AM GMT
+DAL321,B739,John F Kennedy Intl (KJFK),Harry Reid Intl (KLAS),Wed 05:47PM EST,Wed 07:52PM PST
+DAL323,B752,John F Kennedy Intl (KJFK),San Francisco Int'l (KSFO),Wed 09:47PM EST,Thu 12:28AM PST
+DAL333,BCS1,Dallas-Fort Worth Intl (KDFW),LaGuardia (KLGA),Wed 08:12PM CST,Wed 11:50PM EST
+DAL339,A321,Hartsfield-Jackson Intl (KATL),Phoenix Sky Harbor Intl (KPHX),Wed 06:49PM EST,Wed 08:41PM MST
+DAL353,B763,Los Angeles Intl (KLAX),John F Kennedy Intl (KJFK),Wed 04:51PM PST,Thu 12:27AM EST
+DAL355,B763,Kahului (OGG / PHOG),Los Angeles Intl (KLAX),Wed 01:54PM HST,Wed 08:30PM PST
+DAL357,B739,John F Kennedy Intl (KJFK),Seattle-Tacoma Intl (KSEA),Wed 07:14PM EST,Wed 09:48PM PST
+DAL358,B739,Detroit Metro Wayne Co (KDTW),San Francisco Int'l (KSFO),Wed 08:51PM EST,Wed 10:22PM PST
+DAL36,A333,Orlando Intl (KMCO),Amsterdam Schiphol (AMS / EHAM),Wed 07:44PM EST,Thu 10:02AM CET
+DAL366,A21N,Boston Logan Intl (KBOS),San Diego Intl (KSAN),Wed 04:41PM EST,Wed 07:37PM PST
+DAL374,B763,Los Angeles Intl (KLAX),John F Kennedy Intl (KJFK),Wed 03:00PM PST,Wed 10:38PM EST
+DAL377,B739,Hartsfield-Jackson Intl (KATL),Muhammad Ali Intl (KSDF),Wed 10:23PM EST,Wed 11:15PM EST
+DAL380,B752,Reagan National (KDCA),Los Angeles Intl (KLAX),Wed 05:54PM EST,Wed 08:04PM PST
+DAL381,B739,Salt Lake City Intl (KSLC),John F Kennedy Intl (KJFK),Wed 05:48PM MST,Wed 11:25PM EST
+DAL386,B739,Seattle-Tacoma Intl (KSEA),John F Kennedy Intl (KJFK),Wed 03:53PM PST,Wed 11:17PM EST
+DAL388,B739,Boston Logan Intl (KBOS),Phoenix Sky Harbor Intl (KPHX),Wed 06:51PM EST,Wed 10:14PM MST
+DAL40,A359,Sydney (SYD / YSSY),Los Angeles Intl (KLAX),Thu 11:33AM AEDT,Thu 05:05AM PST
+DAL412,A321,Detroit Metro Wayne Co (KDTW),Harry Reid Intl (KLAS),Wed 08:48PM EST,Wed 09:40PM PST
+DAL415,B752,Hartsfield-Jackson Intl (KATL),New Orleans Intl (KMSY),Wed 10:27PM EST,Wed 10:33PM CST
+DAL418,B739,John F Kennedy Intl (KJFK),Portland Intl (KPDX),Wed 07:46PM EST,Wed 10:16PM PST
+DAL420,BCS1,Seattle-Tacoma Intl (KSEA),Austin-Bergstrom Intl (KAUS),Wed 05:57PM PST,Wed 11:14PM CST
+DAL44,B764,John F Kennedy Intl (KJFK),Dublin Int'l (DUB / EIDW),Wed 09:16PM EST,Thu 08:03AM GMT
+DAL443,B763,Los Angeles Intl (KLAX),Daniel K Inouye Intl (PHNL),Wed 05:36PM PST,Wed 08:35PM HST
+DAL450,B738,Seattle-Tacoma Intl (KSEA),Nashville Intl (KBNA),Wed 06:07PM PST,Thu 12:00AM CST
+DAL453,B738,Los Angeles Intl (KLAX),Nashville Intl (KBNA),Wed 05:08PM PST,Wed 10:37PM CST
+DAL46,A339,John F Kennedy Intl (KJFK),Amsterdam Schiphol (AMS / EHAM),Wed 05:00PM EST,Thu 05:30AM CET
+DAL464,B763,Los Angeles Intl (KLAX),Kahului (OGG / PHOG),Wed 05:47PM PST,Wed 08:50PM HST
+DAL465,B763,Los Angeles Intl (KLAX),Daniel K Inouye Intl (PHNL),Wed 03:43PM PST,Wed 06:37PM HST
+DAL466,A21N,Fort Lauderdale Intl (KFLL),Seattle-Tacoma Intl (KSEA),Wed 06:39PM EST,Wed 09:21PM PST
+DAL468,B738,Seattle-Tacoma Intl (KSEA),Raleigh-Durham Intl (KRDU),Wed 03:58PM PST,Wed 11:20PM EST
+DAL48,A333,John F Kennedy Intl (KJFK),Amsterdam Schiphol (AMS / EHAM),Wed 08:09PM EST,Thu 08:41AM CET
+DAL487,A321,Hartsfield-Jackson Intl (KATL),LaGuardia (KLGA),Wed 09:51PM EST,Wed 11:25PM EST
+DAL493,A321,Hartsfield-Jackson Intl (KATL),Denver Intl (KDEN),Wed 09:20PM EST,Wed 09:51PM MST
+DAL495,B763,Daniel K Inouye Intl (PHNL),Los Angeles Intl (KLAX),Wed 02:31PM HST,Wed 09:26PM PST
+DAL496,B739,Harry Reid Intl (KLAS),John F Kennedy Intl (KJFK),Wed 03:59PM PST,Wed 11:05PM EST
+DAL50,A333,Salt Lake City Intl (KSLC),London Heathrow (LHR / EGLL),Wed 05:26PM MST,Thu 09:03AM GMT
+DAL510,B712,Hartsfield-Jackson Intl (KATL),Wichita Eisenhower (KICT),Wed 09:59PM EST,Wed 10:49PM CST
+DAL519,A320,Hartsfield-Jackson Intl (KATL),Reagan National (KDCA),Wed 10:25PM EST,Wed 11:38PM EST
+DAL52,B764,John F Kennedy Intl (KJFK),Zurich (Kloten) (ZRH / LSZH),Wed 08:52PM EST,Thu 10:02AM CET
+DAL522,B763,Daniel K Inouye Intl (PHNL),Seattle-Tacoma Intl (KSEA),Wed 02:06PM HST,Wed 09:17PM PST
+DAL524,B763,John F Kennedy Intl (KJFK),Los Angeles Intl (KLAX),Wed 07:25PM EST,Wed 10:00PM PST
+DAL54,A332,Hartsfield-Jackson Intl (KATL),Murtala Mohammed Int'l (LOS / DNMM),Wed 06:00PM EST,Thu 10:19AM WAT
+DAL55,A332,Murtala Mohammed Int'l (LOS / DNMM),Hartsfield-Jackson Intl (KATL),Wed 11:00PM WAT,Thu 05:26AM EST
+DAL556,B752,Hartsfield-Jackson Intl (KATL),John Wayne (KSNA),Wed 08:45PM EST,Wed 10:00PM PST
+DAL558,A21N,Boston Logan Intl (KBOS),Salt Lake City Intl (KSLC),Wed 06:42PM EST,Wed 09:40PM MST
+DAL56,A333,Salt Lake City Intl (KSLC),Amsterdam Schiphol (AMS / EHAM),Wed 04:27PM MST,Thu 09:16AM CET
+DAL560,B738,Palm Beach Intl (KPBI),Boston Logan Intl (KBOS),Wed 08:03PM EST,Wed 10:36PM EST
+DAL565,A21N,Seattle-Tacoma Intl (KSEA),Ellison Onizuka Kona Intl At Keahole (KOA / PHKO),Wed 02:17PM PST,Wed 06:08PM HST
+DAL568,A320,Los Angeles Intl (KLAX),Dallas-Fort Worth Intl (KDFW),Wed 06:34PM PST,Wed 11:01PM CST
+DAL574,B738,Denver Intl (KDEN),LaGuardia (KLGA),Wed 06:32PM MST,Wed 11:27PM EST
+DAL58,A332,Boston Logan Intl (KBOS),London Heathrow (LHR / EGLL),Wed 07:51PM EST,Thu 06:44AM GMT
+DAL600,B752,John F Kennedy Intl (KJFK),San Francisco Int'l (KSFO),Wed 05:44PM EST,Wed 08:31PM PST
+DAL604,B752,Cancun Int'l (CUN / MMUN),Seattle-Tacoma Intl (KSEA),Wed 05:58PM EST,Wed 09:13PM PST
+DAL606,B752,Hartsfield-Jackson Intl (KATL),Phoenix Sky Harbor Intl (KPHX),Wed 08:27PM EST,Wed 10:00PM MST
+DAL61,B763,Hartsfield-Jackson Intl (KATL),Rio de Janeiro/Galeao Intl (GIG / SBGL),Wed 07:36PM EST,Thu 06:44AM -03
+DAL610,A21N,John F Kennedy Intl (KJFK),Seattle-Tacoma Intl (KSEA),Wed 04:58PM EST,Wed 07:48PM PST
+DAL614,B739,Cancun Int'l (CUN / MMUN),Los Angeles Intl (KLAX),Wed 07:10PM EST,Wed 08:49PM PST
+DAL634,B739,John F Kennedy Intl (KJFK),Harry Reid Intl (KLAS),Wed 08:27PM EST,Wed 10:28PM PST
+DAL636,B738,Anchorage Intl (PANC),Seattle-Tacoma Intl (KSEA),Wed 03:58PM AKST,Wed 07:53PM PST
+DAL656,B739,Hartsfield-Jackson Intl (KATL),San Francisco Int'l (KSFO),Wed 10:07PM EST,Wed 11:47PM PST
+DAL657,A321,Salt Lake City Intl (KSLC),Detroit Metro Wayne Co (KDTW),Wed 06:45PM MST,Wed 11:38PM EST
+DAL660,A321,Hartsfield-Jackson Intl (KATL),Salt Lake City Intl (KSLC),Wed 07:54PM EST,Wed 09:28PM MST
+DAL667,BCS1,Boston Logan Intl (KBOS),Kansas City Intl (KMCI),Wed 08:01PM EST,Wed 10:09PM CST
+DAL671,B739,John F Kennedy Intl (KJFK),Salt Lake City Intl (KSLC),Wed 06:09PM EST,Wed 08:44PM MST
+DAL680,A339,John F Kennedy Intl (KJFK),Los Angeles Intl (KLAX),Wed 05:25PM EST,Wed 07:42PM PST
+DAL682,B739,Hartsfield-Jackson Intl (KATL),Sacramento Intl (KSMF),Wed 08:07PM EST,Wed 09:43PM PST
+DAL692,A320,Los Angeles Intl (KLAX),Austin-Bergstrom Intl (KAUS),Wed 06:06PM PST,Wed 10:32PM CST
+DAL694,A21N,Detroit Metro Wayne Co (KDTW),Los Angeles Intl (KLAX),Wed 08:57PM EST,Wed 10:17PM PST
+DAL696,B738,Boston Logan Intl (KBOS),Tampa Intl (KTPA),Wed 08:53PM EST,Wed 11:39PM EST
+DAL7,A339,Los Angeles Intl (KLAX),Tokyo Int'l (Haneda) (HND / RJTT),Wed 10:10AM PST,Thu 02:42PM JST
+DAL702,B739,Salt Lake City Intl (KSLC),Boston Logan Intl (KBOS),Wed 05:47PM MST,Wed 11:42PM EST
+DAL707,A321,Harry Reid Intl (KLAS),Hartsfield-Jackson Intl (KATL),Wed 04:27PM PST,Wed 10:51PM EST
+DAL714,A321,Detroit Metro Wayne Co (KDTW),Salt Lake City Intl (KSLC),Wed 07:59PM EST,Wed 09:20PM MST
+DAL715,A321,Hartsfield-Jackson Intl (KATL),Los Angeles Intl (KLAX),Wed 10:21PM EST,Wed 11:40PM PST
+DAL719,B763,San Francisco Int'l (KSFO),John F Kennedy Intl (KJFK),Wed 03:23PM PST,Wed 11:05PM EST
+DAL72,A333,Hartsfield-Jackson Intl (KATL),Amsterdam Schiphol (AMS / EHAM),Wed 05:53PM EST,Thu 07:51AM CET
+DAL735,BCS1,LaGuardia (KLGA),Dallas-Fort Worth Intl (KDFW),Wed 07:45PM EST,Wed 10:23PM CST
+DAL74,A333,Hartsfield-Jackson Intl (KATL),Amsterdam Schiphol (AMS / EHAM),Wed 08:02PM EST,Thu 10:01AM CET
+DAL741,A21N,Hartsfield-Jackson Intl (KATL),Seattle-Tacoma Intl (KSEA),Wed 09:58PM EST,Wed 11:39PM PST
+DAL764,A319,Minneapolis/St Paul Intl (KMSP),San Antonio Intl (KSAT),Wed 08:06PM CST,Wed 10:39PM CST
+DAL765,B752,Hartsfield-Jackson Intl (KATL),Raleigh-Durham Intl (KRDU),Wed 10:22PM EST,Wed 11:13PM EST
+DAL767,A320,Austin-Bergstrom Intl (KAUS),Los Angeles Intl (KLAX),Wed 07:30PM CST,Wed 08:15PM PST
+DAL782,B739,Minneapolis/St Paul Intl (KMSP),Seattle-Tacoma Intl (KSEA),Wed 06:49PM CST,Wed 07:59PM PST
+DAL783,B739,Salt Lake City Intl (KSLC),Raleigh-Durham Intl (KRDU),Wed 05:50PM MST,Wed 11:21PM EST
+DAL788,A319,Austin-Bergstrom Intl (KAUS),Salt Lake City Intl (KSLC),Wed 07:55PM CST,Wed 09:18PM MST
+DAL80,A339,Seattle-Tacoma Intl (KSEA),Charles de Gaulle/Roissy (CDG / LFPG),Wed 01:30PM PST,Thu 07:38AM CET
+DAL803,A321,Los Angeles Intl (KLAX),Hartsfield-Jackson Intl (KATL),Wed 05:39PM PST,Thu 12:31AM EST
+DAL82,A333,Hartsfield-Jackson Intl (KATL),Charles de Gaulle/Roissy (CDG / LFPG),Wed 04:07PM EST,Thu 06:02AM CET
+DAL825,B752,Hartsfield-Jackson Intl (KATL),Harry Reid Intl (KLAS),Wed 09:11PM EST,Wed 10:07PM PST
+DAL86,A332,Detroit Metro Wayne Co (KDTW),Frankfurt Int'l (FRA / EDDF),Wed 05:53PM EST,Thu 07:49AM CET
+DAL888,B739,Hartsfield-Jackson Intl (KATL),Portland Intl (KPDX),Wed 07:57PM EST,Wed 09:44PM PST
+DAL891,B738,Nashville Intl (KBNA),Los Angeles Intl (KLAX),Wed 06:04PM CST,Wed 08:07PM PST
+DAL896,A321,Hartsfield-Jackson Intl (KATL),San Diego Intl (KSAN),Wed 10:26PM EST,Wed 11:31PM PST
+DAL897,A321,Hartsfield-Jackson Intl (KATL),Los Angeles Intl (KLAX),Wed 06:42PM EST,Wed 07:55PM PST
+DAL907,A321,Salt Lake City Intl (KSLC),Hartsfield-Jackson Intl (KATL),Wed 06:01PM MST,Wed 11:12PM EST
+DAL950,B739,Hartsfield-Jackson Intl (KATL),San Francisco Int'l (KSFO),Wed 08:13PM EST,Wed 09:56PM PST
+DAL960,B712,Hartsfield-Jackson Intl (KATL),Dallas Love Fld (KDAL),Wed 09:07PM EST,Wed 09:55PM CST
+DAL965,B738,Seattle-Tacoma Intl (KSEA),Anchorage Intl (PANC),Wed 06:19PM PST,Wed 08:33PM AKST
+DAL966,B752,Hartsfield-Jackson Intl (KATL),Los Angeles Intl (KLAX),Wed 08:51PM EST,Wed 10:04PM PST
+DAL969,A359,Daniel K Inouye Intl (PHNL),Detroit Metro Wayne Co (KDTW),Wed 04:22PM HST,Thu 05:13AM EST
+DAL971,A320,Minneapolis/St Paul Intl (KMSP),John Glenn Columbus Intl Airport (KCMH),Wed 08:24PM CST,Wed 10:46PM EST
+DAL9755,B752,Hilo Intl (ITO / PHTO),Los Angeles Intl (KLAX),Wed 02:44PM HST,Wed 09:53PM PST
+DAL979,B739,Raleigh-Durham Intl (KRDU),Salt Lake City Intl (KSLC),Wed 07:48PM EST,Wed 09:45PM MST
+DAL98,A333,Detroit Metro Wayne Co (KDTW),Charles de Gaulle/Roissy (CDG / LFPG),Wed 06:48PM EST,Thu 07:57AM CET
+DAL989,A321,Hartsfield-Jackson Intl (KATL),Ontario Intl (KONT),Wed 09:04PM EST,Wed 10:12PM PST
+DAL995,BCS1,Dallas-Fort Worth Intl (KDFW),Boston Logan Intl (KBOS),Wed 07:48PM CST,Wed 11:52PM EST
+DAL9950,A321,El Salvador Int'l (SAL / MSLP),Hartsfield-Jackson Intl (KATL),Wed 07:12PM CST,Wed 11:07PM EST
+DAL996,B739,Minneapolis/St Paul Intl (KMSP),Los Angeles Intl (KLAX),Wed 08:43PM CST,Wed 09:55PM PST
+DAL998,A319,Minneapolis/St Paul Intl (KMSP),Chicago O'Hare Intl (KORD),Wed 08:56PM CST,Wed 09:48PM CST
