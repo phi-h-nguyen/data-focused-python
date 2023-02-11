@@ -16,6 +16,9 @@ def get_lounges(code):
 
     soup = BeautifulSoup(response.html.html, "lxml")
 
+    # with open('lounge.html', 'w') as file:
+    #     file.write(response.text)
+
     terminals = {}
     curTerminal = None
 
@@ -47,8 +50,9 @@ def main():
             print(f"\n{code} ({airport_name}): ")
             for terminal, lounges in dict.items():
                 print(f"{terminal}: {', '.join(lounges)}")
-        except:
+        except Exception as e:
             print(f"\nNo lounges found for airport {code}.")
+            print(e)
 
 
 if __name__ == "__main__":
