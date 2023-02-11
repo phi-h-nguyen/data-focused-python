@@ -1,0 +1,11 @@
+City,Temperature (in kelvin unit),Pressure,Humidity,Description
+Pittsburgh,278.28,1027,51,clear sky
+New York,280.28,1026,39,clear sky
+London,282.11,1037,78,overcast clouds
+New Delhi,292.24,1017,68,haze
+Paris,281.73,1037,84,overcast clouds
+Oslo,271.89,1025,95,overcast clouds
+Bern,274.53,1035,60,clear sky
+Tokyo,280.54,1023,63,broken clouds
+Sydney,295.57,1000,52,light rain
+Los Angeles,287.36,1014,63,haze
