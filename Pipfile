@@ -8,6 +8,7 @@ bs4 = "*"
 requests-html = "*"
 airportsdata = "*"
 requests = "*"
+pandas = "*"
 
 [dev-packages]
 
