@@ -1,6 +1,7 @@
 import requests
 import json
 import csv
+import os
 
 rawDataCSV =  open("weatherraw.csv", "w", newline='', encoding='utf-8')
 cleanDataCSV =  open("weatherclean.csv", "w", newline='', encoding='utf-8')
@@ -11,7 +12,7 @@ writerRaw.writerow(["City", "API Output"])
 writerClean.writerow(["City","Temperature (in kelvin unit)","Pressure","Humidity","Description"])
 
 def weather_forecast(city):
-    api_key = "0a80a58f1e33f376cb5d7cacf503443a"
+    api_key = os.environ['API_KEY']
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     complete_url = base_url + "appid=" + api_key + "&q=" + city
     response = requests.get(complete_url)
