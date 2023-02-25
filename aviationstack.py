@@ -1,14 +1,42 @@
 import requests
 import json
 import pandas as pd
+from datetime import datetime
+
 
 # API Documentation: https://aviationstack.com/documentation
 # url for getting real time flights 
 
-key = ""
+key = "80d5a096bf3bf3af36fcf446192ffbe6"
 
 def get_url(airport, offset=0):
     return f"http://api.aviationstack.com/v1/flights?access_key={key}&dep_iata={airport}&offset={offset}"
+
+
+def get_airport_flights(airport):
+    url = get_url(airport)
+    response = requests.get(url)
+    json_obj = response.json()
+    print(response)
+    print(json_obj)
+    # print(response.content)
+
+    data = json_obj['data']
+
+    total = json_obj['pagination']['total']
+    for i in range(1, min(total // 100, 9) + 1):
+      url = get_url(airport)
+      response = requests.get(url, i * 100)
+      json_obj = response.json()
+      data.extend(json_obj['data'])
+
+
+    now = datetime.now()
+
+    with open(f"flights_{airport}_{str(now)}.json", "w") as outfile:
+      json.dump(data, outfile)
+    
+    return data
 
 
 def call_api():
@@ -36,10 +64,7 @@ def call_api():
       json.dump(data, outfile)
 
 
-def data():
-  f = open('flights_PIT.json')
-  data = json.load(f)
-
+def to_df(data):
   df_dict = {
     'flight_date': [],
     'flight_status': [],
@@ -78,10 +103,15 @@ def data():
         df_dict[key].append(flight_info[index[0]][index[1]])
 
   df = pd.DataFrame.from_dict(df_dict).set_index('flight-icao')
-  print(df)
+  return df
+
+def df_from_file(file = 'flights_PIT.json'):
+  f = open(file)
+  data = json.load(f)
+  return to_df(data)
 
 if __name__ == "__main__":
     # call_api()
-    data()
+    df_from_file()
     
 

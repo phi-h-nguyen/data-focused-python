@@ -38,9 +38,16 @@ def weather_forecast(city):
         #             str(weather_description))
     else:
         print("City Not Found")
-    
-cities=["Pittsburgh","New York","London","New Delhi","Paris","Oslo","Bern","Tokyo","Sydney","Los Angeles"]
-# city = input("Enter city name: ")
-for city in cities:
-    # print("Today's Weather:")
-    weather_forecast(city)
+
+def main():
+    cities=["Pittsburgh","New York","London","New Delhi","Paris","Oslo","Bern","Tokyo","Sydney","Los Angeles"]
+    # city = input("Enter city name: ")
+    for city in cities:
+        # print("Today's Weather:")
+        weather_forecast(city)
+
+
+def get_forecast(city):
+    url = f"https://api.openweathermap.org/data/2.5/forecast?q={city}&limit=1&appid=0a80a58f1e33f376cb5d7cacf503443a"
+    response = requests.get(url)
+    return response.json()
