@@ -9,6 +9,7 @@ requests-html = "*"
 airportsdata = "*"
 requests = "*"
 pandas = "*"
+matplotlib = "*"
 
 [dev-packages]
 

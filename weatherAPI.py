@@ -1,5 +1,4 @@
 import requests
-import json
 import csv
 import os
 
@@ -47,7 +46,9 @@ def main():
         weather_forecast(city)
 
 
-def get_forecast(city):
-    url = f"https://api.openweathermap.org/data/2.5/forecast?q={city}&limit=1&appid=0a80a58f1e33f376cb5d7cacf503443a"
+
+
+def get_forecast(*, lat, lon):
+    url = f"https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&limit=1&appid=0a80a58f1e33f376cb5d7cacf503443a&units=imperial"
     response = requests.get(url)
     return response.json()
