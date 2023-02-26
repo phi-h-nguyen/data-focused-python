@@ -120,19 +120,19 @@ def plotDelay(df):
     plt.title('Top 10 Airlines with the Most Delay')
     plt.show()
 
-
+    #Group by airline over delay hours
     grouped_df = df.groupby(['airline-name'])
-
 
     fig, ax1 = plt.subplots(figsize=(15, 7))
     for name, group in grouped_df:
         delays = group['departure-delay'].fillna(0)
         ax1.hist(delays, bins=range(0, 24, 1), alpha=0.5, label=name)
-        counts, bin_edges = np.histogram(delays, bins=range(0, 24, 1))
+        # counts, bin_edges = np.histogram(delays, bins=range(0, 24, 1))
 
-        labels = []
-        for i in range(len(counts)):
-            labels.append('{}-{} min: {}'.format(int(bin_edges[i]), int(bin_edges[i + 1]), counts[i]))
+        # print(counts)
+        # labels = []
+        # for i in range(len(counts)):
+        #     labels.append('{}-{} min: {}'.format(int(bin_edges[i]), int(bin_edges[i + 1]), counts[i]))
         # for i, v in enumerate(ax1.hist(delays, bins=range(0, 24, 1), alpha=0.5, label=name)[0]):
         #     ax1.text(i, v + 1, str(int(v)))
 
@@ -141,8 +141,8 @@ def plotDelay(df):
     ax1.set_ylabel('Number of Flights')
     ax1.set_title('Flight Delays by Airline')
     # Add a legend
-    # ax1.legend(loc='upper left', bbox_to_anchor=(0.9, 1))
-    ax1.legend(labels=labels)
+    ax1.legend(loc='upper left', bbox_to_anchor=(0.9, 1))
+
     plt.subplots_adjust(right=0.9)
     # Show the plot
     plt.show()
