@@ -2,6 +2,8 @@ import requests
 import json
 import pandas as pd
 from datetime import datetime
+import matplotlib.pyplot as plt
+import numpy as np
 
 
 # API Documentation: https://aviationstack.com/documentation
@@ -35,7 +37,7 @@ def get_airport_flights(airport):
 
     with open(f"flights_{airport}_{str(now)}.json", "w") as outfile:
       json.dump(data, outfile)
-    
+
     return data
 
 
@@ -105,6 +107,55 @@ def to_df(data):
   df = pd.DataFrame.from_dict(df_dict).set_index('flight-icao')
   return df
 
+def plotDelay(df):
+    # Group the data by airline and calculate the total delay
+    airline_delays = df.groupby('airline-name')['departure-delay'].sum()
+
+    # Get the top 10 airlines with the most delay
+    top_airlines = airline_delays.nlargest(10)
+
+    # Create the pie chart
+    plt.figure(figsize=(8, 8))
+    plt.pie(top_airlines.values, labels=top_airlines.index, autopct='%1.1f%%')
+    plt.title('Top 10 Airlines with the Most Delay')
+    plt.show()
+
+
+    grouped_df = df.groupby(['airline-name'])
+
+
+    fig, ax1 = plt.subplots(figsize=(15, 7))
+    for name, group in grouped_df:
+        delays = group['departure-delay'].fillna(0)
+        ax1.hist(delays, bins=range(0, 24, 1), alpha=0.5, label=name)
+        counts, bin_edges = np.histogram(delays, bins=range(0, 24, 1))
+
+        labels = []
+        for i in range(len(counts)):
+            labels.append('{}-{} min: {}'.format(int(bin_edges[i]), int(bin_edges[i + 1]), counts[i]))
+        # for i, v in enumerate(ax1.hist(delays, bins=range(0, 24, 1), alpha=0.5, label=name)[0]):
+        #     ax1.text(i, v + 1, str(int(v)))
+
+    # Set the x-axis and y-axis labels and title
+    ax1.set_xlabel('Delay (hours)')
+    ax1.set_ylabel('Number of Flights')
+    ax1.set_title('Flight Delays by Airline')
+    # Add a legend
+    # ax1.legend(loc='upper left', bbox_to_anchor=(0.9, 1))
+    ax1.legend(labels=labels)
+    plt.subplots_adjust(right=0.9)
+    # Show the plot
+    plt.show()
+    delays = df['departure-delay'].fillna(0)
+
+    plt.hist(delays, bins=range(0, 24, 1), color='red')
+    plt.xlabel('Delays(hours)')
+    plt.ylabel('Number of Flights')
+    for i, v in enumerate(plt.hist(delays, bins=range(0, 24, 1), color='red')[0]):
+        plt.text(i, v + 1, str(int(v)))
+
+    plt.show()
+
 def df_from_file(file = 'flights_PIT.json'):
   f = open(file)
   data = json.load(f)
@@ -112,6 +163,7 @@ def df_from_file(file = 'flights_PIT.json'):
 
 if __name__ == "__main__":
     # call_api()
-    df_from_file()
-    
+    df = df_from_file()
+    plotDelay(df)
+
 

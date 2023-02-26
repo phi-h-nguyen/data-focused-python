@@ -1,4 +1,4 @@
-from aviationstack import get_airport_flights, to_df, df_from_file
+from aviationstack import get_airport_flights, to_df, df_from_file, plotDelay
 import airportsdata
 from lounges import get_lounges
 from weatherAPI import get_forecast
@@ -17,6 +17,7 @@ def main():
   if usePrevData == 'y' or usePrevData == 'yes':
     departure_df = df_from_file('sample_PIT_2023-02-24.json')
     departure_iata = "PIT"
+    plotDelay(departure_df)
     departure_airport = airports[departure_iata]
     destination_df = df_from_file('sample_DFW_2023-02-24.json')
     destination_iata = "DFW"
@@ -33,7 +34,10 @@ def main():
       return
 
     departure_data = get_airport_flights(departure_iata)
+
     departure_df = to_df(departure_data)
+    # Departure delay
+    plotDelay(departure_df)
 
     print("Type in the IATA code of your destination airport (ie PIT for the Pittsburgh International Airport")
     destination_iata = input()
@@ -46,6 +50,7 @@ def main():
 
     destination_data = get_airport_flights(destination_iata)
     destination_df = to_df(destination_data)
+    plotDelay(destination_df)
 
 
   # Data analysis and visualziation after setting departure/destination airports
