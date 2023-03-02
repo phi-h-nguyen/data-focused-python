@@ -59,7 +59,7 @@ def main():
             print(f"Sorry! Airport {departure_iata} not found. Exiting")
             return
 
-        print("Getting flight information for {departure_iata}...\n")
+        print(f"Getting flight information for {departure_iata}...\n")
         departure_data = get_airport_flights(departure_iata)
 
         departure_df = to_df(departure_data)
@@ -74,7 +74,7 @@ def main():
             print(f"Sorry! Airport {departure_iata} not found. Exiting")
             return
 
-        print("Getting flight information for {destination_iata}...\n")
+        print(f"Getting flight information for {destination_iata}...\n")
         destination_data = get_airport_flights(destination_iata)
         destination_df = to_df(destination_data)
 
