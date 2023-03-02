@@ -11,9 +11,10 @@ writerRaw.writerow(["City", "API Output"])
 writerClean.writerow(["City","Temperature (in kelvin unit)","Pressure","Humidity","Description"])
 
 def weather_forecast(city):
-    api_key = os.environ['API_KEY']
+    api_key = '0a80a58f1e33f376cb5d7cacf503443a'
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     complete_url = base_url + "appid=" + api_key + "&q=" + city
+
     response = requests.get(complete_url)
     x = response.json()
     # print(city)
@@ -27,27 +28,11 @@ def weather_forecast(city):
         z = x["weather"]
         weather_description = z[0]["description"]
         writerClean.writerow([city, str(current_temperature), str(current_pressure), str(current_humidity), str(weather_description)])
-        # print("Temperature (in kelvin unit) = " +
-        #             str(current_temperature) +
-        #   "\nPressure = " +
-        #             str(current_pressure) +
-        #   "\nHumidity = " +
-        #             str(current_humidity) +
-        #   "\nDescription = " +
-        #             str(weather_description))
+
     else:
         print("City Not Found")
 
-def main():
-    cities=["Pittsburgh","New York","London","New Delhi","Paris","Oslo","Bern","Tokyo","Sydney","Los Angeles"]
-    # city = input("Enter city name: ")
-    for city in cities:
-        # print("Today's Weather:")
-        weather_forecast(city)
-
-
-
-
+# gets forecast given a long and lat
 def get_forecast(*, lat, lon):
     url = f"https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&limit=1&appid=0a80a58f1e33f376cb5d7cacf503443a&units=imperial"
     response = requests.get(url)

@@ -9,6 +9,7 @@ import numpy as np
 # API Documentation: https://aviationstack.com/documentation
 # url for getting real time flights
 
+# NOTE: you may have to update this key if you run out of requests
 key = "80d5a096bf3bf3af36fcf446192ffbe6"
 
 
@@ -16,6 +17,7 @@ def get_url(airport, offset=0):
     return f"http://api.aviationstack.com/v1/flights?access_key={key}&dep_iata={airport}&offset={offset}"
 
 
+# gets all flights from an airport
 def get_airport_flights(airport):
     url = get_url(airport)
     response = requests.get(url)
@@ -23,6 +25,7 @@ def get_airport_flights(airport):
 
     data = json_obj['data']
 
+    # calls a max of 10 times to reduce number of API calls
     total = json_obj['pagination']['total']
     for i in range(1, min(total // 100, 9) + 1):
         url = get_url(airport)
@@ -32,34 +35,14 @@ def get_airport_flights(airport):
 
     now = datetime.now()
 
+    # saves data in json file
     with open(f"flights_{airport}_{str(now)}.json", "w") as outfile:
         json.dump(data, outfile)
 
     return data
 
 
-def call_api():
-    print('Enter an IATA airport code (ie PIT for Pittsburgh International Airport). Will query a maximum of 1000 flights.:')
-    airport = input()
-    url = get_url(airport)
-
-    response = requests.get(url)
-    json_obj = response.json()
-
-    data = json_obj['data']
-
-    total = json_obj['pagination']['total']
-    for i in range(1, min(total // 100, 9) + 1):
-        url = get_url(airport)
-        response = requests.get(url, i * 100)
-        json_obj = response.json()
-        print(f"Flight # {i * 100}: {json_obj['data'][0]}")
-        data.extend(json_obj['data'])
-
-    with open(f"flights_{airport}.json", "w") as outfile:
-        json.dump(data, outfile)
-
-
+# converts data to pandas df
 def to_df(data):
     df_dict = {
         'flight_date': [],

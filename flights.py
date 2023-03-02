@@ -1,3 +1,5 @@
+# THIS FILE IS NOT USED IN THE MAIN PROJECT - this was an old version of flight data that was replaced by the Aviation Stack API
+
 from bs4 import BeautifulSoup
 from requests_html import HTMLSession
 import csv

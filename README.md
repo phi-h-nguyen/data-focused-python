@@ -2,6 +2,12 @@
 
 Github Repository Link: https://github.com/phi-h-nguyen/data-focused-python
 
+## Group Members
+- Phi Nguyen (hpnguyen)
+- Harshil Vora (hvora)
+- Carol Shen (xiaoxin2)
+- Yasuhiro Kawabata (ykawabat)
+
 ## Usage
 Run `main.py` to use this application. See installation instructions using pipenv below.
 

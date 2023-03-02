@@ -8,6 +8,7 @@ def get_url(code):
     return f"https://next.loungebuddy.com/en/{code}?currency=USD"
 
 
+# webscrapes LoungeBuddy.com to get all flights
 def get_lounges(code):
 
     url = get_url(code)
@@ -24,6 +25,7 @@ def get_lounges(code):
 
     try:
         for elem in soup.find_all(attrs={"class": ["title-2", "title-3"]}):
+            # ignore irrelevent text
             if elem.text in ["Quick Filter", "Popular Airports", "Lounge Access", "About Us", "Support", "Make a Reservation", "LoungeBuddy For..."]:
                 continue
             if elem.name == "h3":
@@ -54,6 +56,6 @@ def main():
             print(f"\nNo lounges found for airport {code}.")
             print(e)
 
-
+# Run this file to test lounge access
 if __name__ == "__main__":
     main()
