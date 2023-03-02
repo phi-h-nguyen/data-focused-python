@@ -1,5 +1,7 @@
 # Loungebuddy Final Project
 
+Github Repository Link: https://github.com/phi-h-nguyen/data-focused-python
+
 ## Usage
 Run `main.py` to use this application. See installation instructions using pipenv below.
 
@@ -20,7 +22,7 @@ The file to run. This runs a command-line based menu that allows you to explore 
 
 ## Installation
 
-Uses [pipenv](https://pipenv.pypa.io/) to keep track of requirements and enviornment. To install, run `pip install --user pipenv`
+Uses [pipenv](https://pipenv.pypa.io/) to keep track of requirements and enviornment. To install, run `pip install --user pipenv`. After installing pipenv, install all dependencies by running `pipenv install`
 
 ### Virtual Environment
 
