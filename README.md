@@ -1,5 +1,8 @@
 # data-focused-python
 
+## Usage
+Run `main.py` to use this application. See installation instructions using pipenv below.
+
 ## Modules
 
 ### `lounges.py`
@@ -7,6 +10,13 @@ Webscrapes [www.loungebuddy.com](https://loungebuddy.com) to return a list of al
 
 ### `flights.py`
 Webscrapes [www.flightaware.com](https://flightaware.com/live/fleet/) to create CSV files (raw and cleaned) of all live flights given an airline.
+
+### `aviationstack.py`
+Uses the API provided by [www.aviationstack.com/](https://aviationstack.com/) to get real time flight data. Cleans data with pandas / numpy and does visualizations with matplotlib. Note that this API is limited to 100 requests / month, so if you run into any issues querying data, please sign up for a new API key and replace the one used. There are 2 sample datasets included in this repository: PIT -> DFW on 2/24 and PIT -> MDW on 3/1 that replace the need to query new data. Anytime new data is queried, json files are created so that the data can be saved and used in the future.
+
+### `main.py`
+The file to run. This runs a command-line based menu that allows you to explore flight information such as weather, flight delays, and lounges.
+
 
 ## Installation
 

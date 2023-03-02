@@ -26,13 +26,13 @@ def get_lounges(code):
         "p", attrs={"class": ["text-sm text-espresso-light"]}).text
 
     for elem in soup.find_all(attrs={"class": ["title-2", "title-3"]}):
-        if elem.text == "Quick Filter":
+        if elem.text in ["Quick Filter", "Popular Airports", "Lounge Access", "About Us", "Support", "Make a Reservation", "LoungeBuddy For..."]:
             continue
         if elem.name == "h3":
             terminals[elem.text] = []
             curTerminal = elem.text
         else:
-            terminals[curTerminal].append(elem.text)
+            terminals[curTerminal].append(elem.text.strip())
 
     return airport_name, terminals
 
