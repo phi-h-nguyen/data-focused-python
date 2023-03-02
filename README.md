@@ -1,4 +1,4 @@
-# data-focused-python
+# Loungebuddy Final Project
 
 ## Usage
 Run `main.py` to use this application. See installation instructions using pipenv below.
