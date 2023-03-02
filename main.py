@@ -17,7 +17,10 @@ def main():
     usePrevData = input().strip()
 
     if usePrevData == 'y' or usePrevData == 'yes':
-        print("Enter '1' for PIT -> DFW on 2/24 or '2' for PIT -> MDW on 3/1.")
+        print("Choose from the following options:")
+        print("Enter '1' for PIT -> DFW on 2/24")
+        print("Enter '2' for PIT -> MDW on 3/1")
+        print("Enter '3' for DAL -> BNA on 3/2")
         i = input()
         if i == '1':
             departure_df = df_from_file('sample_PIT_2023-02-24.json')
@@ -33,6 +36,13 @@ def main():
             destination_df = df_from_file('sample_MDW_2023-03-01.json')
             destination_iata = "MDW"
             destination_airport = airports[destination_iata]
+        elif i == '3':
+            departure_df = df_from_file('sample_DAL_2023-03-02.json')
+            departure_iata = "DAL"
+            departure_airport = airports[departure_iata]
+            destination_df = df_from_file('sample_BNA_2023-03-02.json')
+            destination_iata = "BNA"
+            destination_airport = airports[destination_iata]
         else:
             print("Invalid option. Exiting.")
             return
@@ -40,7 +50,7 @@ def main():
     else:
         print("Querying real-time flight information. Note that the current API usage is limited to 100 requests / month. If you run into issues querying data, please sign up for a new API key at https://aviationstack.com/.")
         print(
-            "Type in the IATA code of your origin airport (ie PIT for the Pittsburgh International Airport")
+            "Type in the IATA code of your origin airport (ie PIT for the Pittsburgh International Airport)")
         departure_iata = input()
 
         try:
@@ -49,12 +59,13 @@ def main():
             print(f"Sorry! Airport {departure_iata} not found. Exiting")
             return
 
+        print("Getting flight information for {departure_iata}...\n")
         departure_data = get_airport_flights(departure_iata)
 
         departure_df = to_df(departure_data)
 
         print(
-            "Type in the IATA code of your destination airport (ie PIT for the Pittsburgh International Airport")
+            "Type in the IATA code of your destination airport (ie PIT for the Pittsburgh International Airport)")
         destination_iata = input()
 
         try:
@@ -63,6 +74,7 @@ def main():
             print(f"Sorry! Airport {departure_iata} not found. Exiting")
             return
 
+        print("Getting flight information for {destination_iata}...\n")
         destination_data = get_airport_flights(destination_iata)
         destination_df = to_df(destination_data)
 
@@ -137,24 +149,24 @@ Specific flight information: 'F' or 'Flight'
             airport = input()
             airport = airport.lower()
             if airport == 'd':
-                print("Getting lounge information...\n")
-
-                airport, lounges = get_lounges(departure_iata)
-                lounges_str = ""
-                for terminal in lounges:
-                    lounges_str += f"{terminal}: {', '.join(lounges[terminal])}\n"
-
-                print(f"Lounges from {airport}:\n{lounges_str}")
+                iata = departure_iata
 
             elif airport == 'a':
-                print("Getting lounge information...\n")
-                airport, lounges = get_lounges(destination_iata)
+                iata = destination_iata
+            else:
+                print("Invalid option.")
+
+            print("Getting lounge information...\n")
+
+            airport, lounges = get_lounges(iata)
+            if airport == None or lounges == None:
+                print(f"No lounges found in {iata}.\n")
+            else:
                 lounges_str = ""
                 for terminal in lounges:
                     lounges_str += f"{terminal}: {', '.join(lounges[terminal])}\n"
+
                 print(f"Lounges from {airport}:\n{lounges_str}")
-            else:
-                print("Invalid option.")
 
         elif command == 'd' or command == 'delay':
 
